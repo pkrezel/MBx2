@@ -1,0 +1,88 @@
+Title         : Analyse du réseau métabolique
+Author        : Pascal KREZEL
+Logo          : ICOA
+
+[TITLE]
+
+# Problématique à résoudre
+
+# Bases de données
+
+## Recon2
+Cette base de données(BdD) est en fait un modèle du métabolisme humain,
+celui qui se produit au sein des cellules humaines et non de façon globale
+au sein du corps humain. Cette BdD n'est certainement pas encore complète mais elle apporte déjà beaucoup d'informations.
+Il manque probablement encore pas mal de réaction de transport qui n'ont pas encore été identifiées. Mais même si la présence dans le sang
+d'un métabolite prouvait l'existence d'une réaction de transport, seuls 44% des métabolites peuvent prétendre avoir un mécanisme de transport
+ entre le cytoplasme et le sang, soit moins d'une sur deux.
+
+### Représentation graphique de Recon2
+
+## HMDB
+
+La base de données des métabolites HMDB peut être obtenue sous forme de milliers
+de fichiers xml ou d'un seul fichier xml. Ce dernier ne peut pas être parser 
+avec des outils classiques en Python, il doit être restructurer. Pour cela 
+un code en iPython a été réalisé : HMDB_Exploration.ipynb
+
+### Structure du fichier xml.
+Les sous-niveaux associés à chaque métabolite sont les suivants :
+
+0. version
+1. creation_date
+2. update_date
+3. accession
+4. secondary_accessions
+5. name
+6. description
+7. synonyms
+8. chemical_formula
+9. average_molecular_weight
+10. monisotopic_moleculate_weight
+11. iupac_name
+12. traditional_iupac
+13. cas_registry_number
+14. smiles
+15. inchi
+16. inchikey
+17. taxonomy
+18. ontology
+19. state
+20. experimental_properties
+21. predicted_properties
+22. spectra
+23. biofluid_locations
+24. tissue_locations
+25. pathways
+26. normal_concentrations
+27. abnormal_concentrations
+28. diseases
+29. drugbank_id
+30. drugbank_metabolite_id
+31. phenol_explorer_compound_id
+32. phenol_explorer_metabolite_id
+33. foodb_id
+34. knapsack_id
+35. chemspider_id
+36. kegg_id
+37. biocyc_id
+38. bigg_id
+39. wikipidia
+40. nugowiki
+41. metagene
+42. metlin_id
+43. pubchem_compound_id
+44. het_id
+45. chebi_id
+46. synthesis_reference
+47. general_references
+48. protein_associations
+
+La base est donc très riche en informations. Cependant seuls 39 métabolites
+ont été identifiés à la fois dans le sang et le cytoplasme. Ainsi, il n'est pas possible
+de savoir si ces molécules sont vraiment issues du métabolisme humain.
+
+
+
+
+
