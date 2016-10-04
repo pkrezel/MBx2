@@ -17,6 +17,10 @@ d'un métabolite prouvait l'existence d'une réaction de transport, seuls 44% de
  entre le cytoplasme et le sang, soit moins d'une sur deux.
 
 ### Représentation graphique de Recon2
+Cette BdD se présente sous le forme d'un fichier xml au format sbml dans lequel l'ensemble des réactions chimiques sont décrites.Elle est 
+sur ce site [VMH_Recon2](https://vmh.uni.lu/)
+La description de sa construction est faite dans [Thiele 2013](http://www.nature.com/nbt/journal/v31/n5/full/nbt.2488.html)
+La visualisation de ce modèle dans Cytoscape est compliqué du fait de sa taille. 
 
 ## HMDB
 
@@ -78,7 +82,7 @@ Les sous-niveaux associés à chaque métabolite sont les suivants :
 47. general_references
 48. protein_associations
 
-La base est donc très riche en informations. Cependant seuls 39 métabolites
+La base est donc très riche en informations. Néanmoins seuls 39 métabolites
 ont été identifiés à la fois dans le sang et le cytoplasme. Ainsi, il n'est pas possible
 de savoir si ces molécules sont vraiment issues du métabolisme humain.
 
